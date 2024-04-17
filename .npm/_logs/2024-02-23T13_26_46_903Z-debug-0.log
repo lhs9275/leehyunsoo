@@ -1,0 +1,94 @@
+0 verbose cli /opt/homebrew/Cellar/node/21.6.2/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.2.4
+2 info using node@v21.6.2
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/leehyunsoo/Library/Caches/typescript/5.3/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/leehyunsoo/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 4ms
+17 timing npm:load:configload Completed in 4ms
+18 timing config:load:flatten Completed in 0ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @types/body-parser@ts5.3 @types/ejs@ts5.3 @types/express@ts5.3
+22 verbose argv "install" "--ignore-scripts" "@types/body-parser@ts5.3" "@types/ejs@ts5.3" "@types/express@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/Users/leehyunsoo/.npm/_logs/2024-02-23T13_26_46_903Z-
+26 verbose logfile /Users/leehyunsoo/.npm/_logs/2024-02-23T13_26_46_903Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 16ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 10ms
+34 timing arborist:ctor Completed in 0ms
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 141ms (cache revalidated)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 766ms (cache revalidated)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fejs 771ms (cache revalidated)
+38 timing idealTree:userRequests Completed in 774ms
+39 silly idealTree buildDeps
+40 silly fetch manifest @types/body-parser@1.19.5
+41 silly fetch manifest @types/ejs@3.1.5
+42 silly fetch manifest @types/express@4.17.21
+43 silly placeDep ROOT @types/body-parser@1.19.5 REPLACE for:  want: 1.19.5
+44 silly placeDep ROOT @types/ejs@3.1.5 REPLACE for:  want: 3.1.5
+45 silly placeDep ROOT @types/express@4.17.21 REPLACE for:  want: 4.17.21
+46 timing idealTree:#root Completed in 10ms
+47 timing idealTree:node_modules/@types/body-parser Completed in 0ms
+48 timing idealTree:node_modules/@types/ejs Completed in 0ms
+49 timing idealTree:node_modules/@types/express Completed in 0ms
+50 timing idealTree:buildDeps Completed in 12ms
+51 timing idealTree:fixDepFlags Completed in 0ms
+52 timing idealTree Completed in 798ms
+53 timing reify:loadTrees Completed in 798ms
+54 timing reify:diffTrees Completed in 2ms
+55 silly reify moves {}
+56 timing reify:retireShallow Completed in 1ms
+57 timing reify:createSparse Completed in 0ms
+58 timing reify:loadBundles Completed in 0ms
+59 silly audit bulk request {
+59 silly audit   '@types/connect': [ '3.4.38' ],
+59 silly audit   '@types/express-serve-static-core': [ '4.17.43' ],
+59 silly audit   '@types/http-errors': [ '2.0.4' ],
+59 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+59 silly audit   '@types/mime': [ '1.3.5' ],
+59 silly audit   '@types/node': [ '20.11.19' ],
+59 silly audit   '@types/qs': [ '6.9.11' ],
+59 silly audit   '@types/range-parser': [ '1.2.7' ],
+59 silly audit   '@types/send': [ '0.17.4' ],
+59 silly audit   '@types/serve-static': [ '1.15.5' ],
+59 silly audit   'types-registry': [ '0.1.684' ],
+59 silly audit   'undici-types': [ '5.26.5' ],
+59 silly audit   '@types/body-parser': [ '1.19.5' ],
+59 silly audit   '@types/ejs': [ '3.1.5' ],
+59 silly audit   '@types/express': [ '4.17.21' ]
+59 silly audit }
+60 timing reify:unpack Completed in 0ms
+61 timing reify:unretire Completed in 0ms
+62 timing build:queue Completed in 0ms
+63 timing build:deps Completed in 0ms
+64 timing build Completed in 1ms
+65 timing reify:build Completed in 1ms
+66 timing reify:trash Completed in 0ms
+67 timing reify:save Completed in 7ms
+68 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 164ms
+69 timing auditReport:getReport Completed in 167ms
+70 silly audit report {}
+71 timing auditReport:init Completed in 0ms
+72 timing reify:audit Completed in 167ms
+73 timing reify Completed in 972ms
+74 timing command:install Completed in 976ms
+75 verbose exit 0
+76 timing npm Completed in 1044ms
+77 info ok
